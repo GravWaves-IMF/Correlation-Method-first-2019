@@ -47,6 +47,6 @@ sudo apt-get install build-essential
 The Correlation Analysis, will be run for a single event at a time.
 The steps to do in order to generate the results of our paper are :
 
-1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the _4096 s_, _4 KHz_ files for our analysis.
+1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the _4096 s_, _4 KHz_ _.gwf_ files for our analysis.
 
 2. Download the posteriors for the events of _O1_ from [Biwer et al.](https://github.com/gwastro/pycbc-inference-paper/tree/master/posteriors), the posteriors for _GW170104_ instead may be found [here](https://github.com/gwastro/o2-bbh-pe/tree/master/posteriors)
