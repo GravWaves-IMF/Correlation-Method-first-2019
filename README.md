@@ -47,4 +47,4 @@ sudo apt-get install build-essential
 The Correlation Analysis, will be run for a single event at a time.
 The steps to do in order to generate the results of our paper are :
 
-1. Download the data of the two detectors event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the  
+1. Download the data of the two detectors *H1*,*L1* for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the  
