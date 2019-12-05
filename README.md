@@ -22,3 +22,17 @@ We find that after subtracting the maximum likelihood waveform, there are no sta
 Details of the analaysis can be found in our [preprint paper](http://google.com/2r09324).
 
 ## Description of Supplemental Material ##
+
+In order to reproduce the results of our paper, an [Anaconda](https://www.anaconda.com/distribution/) environment with python 2.7 is needed.
+The supplementary libraries needed, may be checked from the file [init_module.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/init_module.py).
+In particular :
+
+- The notebooks, require the installation of [PyCBC](https://pycbc.org/) v1.12.4 and [LALSuite](https://git.ligo.org/lscsoft/lalsuite) 6.49, which contains version 1.8.0 of the LALSimulation library used to generate the maximum likelihood waveform. Both of these libraries can be installed using [pip](https://pip.pypa.io/en/stable/) with the command:
+```sh
+pip install 'pycbc==1.12.4' 'lalsuite==6.49'
+```
+
+- A new version of the file [res.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/res.py) is available in the code directory. The latter, need to be copied and pasted in the directory  
+```sh
+/home/*username*/anaconda2/lib/python2.7/site-packages
+```
