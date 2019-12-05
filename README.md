@@ -42,3 +42,9 @@ sudo apt-get install build-essential
 ```sh
 /home/*username*/anaconda2/lib/python2.7/site-packages
 ```
+## How to run the Correlation Analysis ##
+
+The Correlation Analysis, will be run for a single event at a time.
+The steps to do in order to generate the results of our paper are :
+
+1. Download the data of the two detectors event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the  
