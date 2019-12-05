@@ -21,7 +21,7 @@ We find that after subtracting the maximum likelihood waveform, there are no sta
 
 Details of the analaysis can be found in our [preprint paper](http://google.com/2r09324).
 
-## Additional Material##
+## Additional Material ##
 
 In order to reproduce the results of our paper, an [Anaconda](https://www.anaconda.com/distribution/) environment with python 2.7 is needed.
 The supplementary libraries needed, may be checked from the file [init_module.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/init_module.py).
