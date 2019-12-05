@@ -31,6 +31,12 @@ In particular :
 ```sh
 pip install 'pycbc==1.12.4' 'lalsuite==6.49'
 ```
+- Some function will require a C, C++ compiler in order to run, the [GCC](https://gcc.gnu.org/) compiler may be easily installed by running : 
+
+```sh
+sudo apt-get update
+sudo apt-get install build-essential
+```
 
 - A new version of the file [res.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/res.py) is available in the code directory. The latter, need to be copied and pasted in the directory  
 ```sh
