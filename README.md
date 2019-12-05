@@ -14,7 +14,7 @@ The analysis will follow the same pipelines used in [GW150914_investigation](htt
 However, we'll use whitened data of the events for the following analysis, and instead of estimating the cross-correlations among the two detectors at the coalescence time suggested by the posteriors, we'll run a new pipeline that will determine the correlations (with a fixed time shift, both for rough strain and residuals) in function of a _200ms_ wide GPS time around the event.
 By doing so, we may both observe how the correlations evolve in function of physical time and find the best coalescence time for each event, in order to maximize the correlation value of the original data or the difference among original data and residuals after the subtraction.
 The obtained values of the correlations, will then be evaluated from a statistical point of view, by comparing them with the cross-correlation obtained from both simulated Gaussian noise and data from the LIGO detectors, at times during which no detection of gravitational waves has been claimed.
-For each event, as a different frequency range was used for the whitening, will be generated a whitened background both for simulated Gaussian noise and data from the LIGO detectors, in order to define the significance of the correlations by comparing with a custom-built environment.     
+For each event, as a different frequency range was used for the whitening, will be generated a whitened background both for simulated Gaussian noise and data from the _LIGO_ detectors, in order to define the significance of the correlations by comparing with a custom-built environment.     
 We find that after subtracting the maximum likelihood waveform, there are no statistically significant correlations between the residuals of the two detectors at the time of all the events reported above.
 
 ## Analysis Details ##
@@ -47,4 +47,6 @@ sudo apt-get install build-essential
 The Correlation Analysis, will be run for a single event at a time.
 The steps to do in order to generate the results of our paper are :
 
-1. Download the data of the two detectors *_H1_*,*_L1_* for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the  
+1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the _4096 s_, _4 KHz_ file for our analysis.
+
+2. Download the posteriors for the events of _O1_ from [Biwer et al.](https://github.com/gwastro/pycbc-inference-paper/tree/master/posteriors), the posteriors for _GW170104_ instead may be found [here](https://github.com/gwastro/o2-bbh-pe/tree/master/posteriors)
