@@ -66,3 +66,5 @@ Once all these preparation steps are done, the script [CreateResiduals.ipynb] (h
   and replacing <code> In[9] </code> with line :
 
   <code> fp = InferenceFile(pst_nm,'r') </code> 
+  
+  - Depending on how old your strain data is, it may be saved either with the acronym _LOSC_ or _GWOSC_, differences in the data sets may results in errors while trying to load the data, so always double check that the name of the files are matching. In particular, the strain arrays inside the data files would have their channel named differently according to what stated at the [GWOSC](https://www.gw-openscience.org/o2_details/), to solve the channel name problem one simply need to replace the '_LOSC-STRAIN_' string passed in <code> In[5] </code> and <code> In[7] </code> at [CreateResiduals.ipynb](https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) using '<em>GWOSC-4KHZ_R1_STRAIN</em>'
