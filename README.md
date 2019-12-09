@@ -58,4 +58,11 @@ The steps to do in order to generate the results of our paper are :
 
 ## Additional information about the execution of the notebooks
 
-- In order to run the [CreateResiduals.ipynb](https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) for events different from _GW150914_, one should first of all move to the choosed event directory using <code> cd _directoryname_ </code>, then launch the two scripts [init_module.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/init_module.py) and [GW*event_name*.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151012Final/GW151012data.py) using the magic command <code> %run _scriptname_ </code>
+- In order to run the [CreateResiduals.ipynb](https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) for events different from _GW150914_, one should first of all move to the choosed event directory using <code> cd _directoryname_ </code>, then check that all the additional data said in points __1)__ and __2)__ of the __How to run__ section was correctly downloaded, and finally launch the two scripts [init_module.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/init_module.py) and [GW*event_name*.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151012Final/GW151012data.py) using the magic command <code> %run _scriptname_ </code>.
+Once all these preparation steps are done, the script [CreateResiduals.ipynb] (https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) may be easily run for different events by replacing <code> In[3] </code> with the version using auxiliary variables :
+
+<code> data_files = {'H1': 'H-H1_' + hd_nm, 'L1': 'L-L1_' + hd_nm} </code> 
+
+and replacing <code> In[9] </code> with line :
+
+<code> fp = InferenceFile(pst_nm,'r') </code> 
