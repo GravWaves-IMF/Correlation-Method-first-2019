@@ -42,13 +42,18 @@ sudo apt-get install build-essential
 ```sh
 /home/*username*/anaconda2/lib/python2.7/site-packages
 ```
+
+- A copy of the notebooks developed by [Nielsen et al.](https://github.com/gwastro/gw150914_investigation) may be found in the [code](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code) directory.
+
 ## How to run the Correlation Analysis ##
 
 The Correlation Analysis, will be run for a single event at a time.
 The steps to do in order to generate the results of our paper are :
 
-1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/), we used the _4096 s_, _4 KHz_ _.gwf_ files for our analysis;
+1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/) and copy them in their respective directory, we used the _4096 s_, _4 KHz_ _.gwf_ files for our analysis;
 
 2. Download the posteriors for the events of _O1_ from [Biwer et al.](https://github.com/gwastro/pycbc-inference-paper/tree/master/posteriors), the posteriors for _GW170104_ instead may be found [here](https://github.com/gwastro/o2-bbh-pe/tree/master/posteriors);
 
-3. Run the [CreateResiduals.ipynb](https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) to create the _residuals.hdf_ file, the correctness of the results for the _GW150914_ may be checked from the previous notebook, the results for the other events are written in the files [GW151012obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151012Final/151012obtinf.txt), [GW151226obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151226Final/151226obtinf.txt) and [GW170104obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW170104Final/170104obtinf.txt) (There could be small variations in the value of _SNR_ and _Phase Shift_); 
+3. Run the [CreateResiduals.ipynb](https://github.com/gwastro/gw150914_investigation/blob/master/CreateResiduals.ipynb) to create the _residuals.hdf_ file, the previous notebook was built for _GW150914_, how to run that for other events will be briefly described in the *Additional information* section below. The correctness of the results for the _GW150914_ may be checked from the previous notebook, the results for the other events are written in the files [GW151012obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151012Final/151012obtinf.txt), [GW151226obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW151226Final/151226obtinf.txt) and [GW170104obtinf.txt](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/GW170104Final/170104obtinf.txt) (There could be small variations in the value of _SNR_ and _Phase Shift_); 
+
+## Additional information about the execution of the notebooks
