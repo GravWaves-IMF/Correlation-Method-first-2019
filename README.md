@@ -43,7 +43,7 @@ sudo apt-get install build-essential
 /home/*username*/anaconda2/lib/python2.7/site-packages
 ```
 
-- The standard version of [Astropy](https://www.astropy.org/) will result into a problem while downloading the additional needed data due to a server that went down, a new version of the [iers,py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/iers.py) was added in the [code](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code) directory in order to fix the problem.
+- The standard version of [Astropy](https://www.astropy.org/) will result into a problem while downloading the additional needed data due to a server that went down, a new version of the [iers.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/iers.py) was added in the [code](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code) directory in order to fix the problem.
 The new file should be copied in the directory :
 
 ```sh
