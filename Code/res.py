@@ -340,6 +340,37 @@ def cross_correlation(h1, l1, time, w=0.04):
     corr = numpy.array(corr)
     return tau, TimeSeries(corr, epoch=tauind_min*h1.delta_t, delta_t=h1.delta_t)
 
+def avg_cross_correlation(h1, l1, time, w=0.04):
+    """Little change to the function by Creswell et al.
+       The correlation would be estimated at time t in a window around the t instead of starting from the t   
+    """
+    # The time steps can be retrieved from the TimeSeries.sample_times
+    # attribute, which is a pycbc.types.Array; the `.numpy()` converts that
+    # to a numpy.array.
+    h1_res_times = h1.sample_times.numpy()
+    h1_res_strain = h1.numpy()
+
+    l1_res_times = l1.sample_times.numpy()
+    l1_res_strain = l1.numpy()
+
+    fs = 1./(h1_res_times[1]-h1_res_times[0])
+
+    min_indxt = numpy.where(abs(h1_res_times-(time - (w/2.))) == abs(h1_res_times-(time - (w/2.))).min())[0][0]
+    max_indxt = numpy.where(abs(h1_res_times-(time + (w/2.))) == abs(h1_res_times-(time+(w/2.))).min())[0][0]
+
+    deltatau = 0.01
+
+    tauind_min = int(-deltatau*fs); tauind_max = int(+deltatau*fs)
+    tauind = numpy.arange(tauind_min, tauind_max)
+    tau = tauind / fs
+
+    corr = []
+
+    for i in tauind:
+        corr.append(numpy.corrcoef(h1_res_strain[min_indxt+abs(tauind_min)+i:max_indxt-abs(tauind_max)+i],l1_res_strain[min_indxt+abs(tauind_min):max_indxt-abs(tauind_max)])[0][1])
+
+    corr = numpy.array(corr)
+    return tau, TimeSeries(corr, epoch=tauind_min*h1.delta_t, delta_t=h1.delta_t)
 
 def indices_within_window(corr, timedl, tdlerr):
     # The start/end points correspond to rounding to the nearest sample in the
