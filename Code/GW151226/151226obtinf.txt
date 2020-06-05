@@ -1,0 +1,28 @@
+#Information obtained while running the 1st part of GW151226 Analysis
+
+MaxL point, SNR: 3173, 13.1643765938
+MaxL parameters:
+dec: 0.987993623423
+distance: 382.381264256
+inclination: 0.662014034326
+mass1: 18.6193746117
+mass2: 6.99167978267
+polarization: 2.7568061489
+ra: 1.84877116064
+spin1_a: 0.607308522041
+spin1_azimuthal: 2.49378972405
+spin1_polar: 1.20749889083
+spin2_a: 0.93818935262
+spin2_azimuthal: 5.32247068013
+spin2_polar: 1.04870427236
+tc = 1135136350.6648397
+
+Phase shift: -0.099436707
+SNR 13.677824446
+
+Freq at inband, peak = 43.01, 446.75 Hz
+
+MaxSigCorr of  -0.784028592958 at cort 1135136350.6196449 (Res -0.323771888555)
+
+Best improvement on correlation (with SigCorr >0.7) of 0.516114808736 at 1135136350.6156428
+ (from -0.760970531252 to -0.244855722515)      

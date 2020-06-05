@@ -1,0 +1,29 @@
+#Information obtained while running the 1st part of GW170104 Analysis
+
+MaxL point, SNR: 4001, 13.679824477
+MaxL parameters:
+dec: -0.801741843801
+distance: 526.265177613
+inclination: 1.09164968562
+mass1: 39.2764144329
+mass2: 20.9818043706
+polarization: 5.68843653007
+ra: 0.88919566562
+spin1_a: 0.549723535135
+spin1_azimuthal: 3.48529781872
+spin1_polar: 2.39019494017
+spin2_a: 0.552760258901
+spin2_azimuthal: 0.0640136881963
+spin2_polar: 0.593600990742
+tc: 1167559936.5876641
+
+
+Phase shift: -1.803282187
+SNR: 13.794891844
+
+Freq at inband, peak = 43.01, 187.88 Hz
+
+MaxSigCorr of  -0.936826752885 at cort 1167559936.5731215 (ResCorr -0.701481091866)
+
+Best improvement on correlation (with SigCorr >0.9) of 0.517187990207 at 1167559936.56982
+ (from -0.921012345992 to -0.40382435578599996)      
