@@ -16,8 +16,8 @@ notches = [14.00, 34.70, 35.30, 35.90, 36.70, 37.30, 40.95, 60.00, 120.00, 179.9
 order = 4096
 ifos = ['H1', 'L1']
 
-# Consistent with LIGO reported results we use 7 ms +- 0.6 ms. 
-time_diff =  0.007
+# Consistent with LIGO reported results we use 
+
 time_uncertainty = 0.0006
 
 # The event_time is the UTC time of the detection in GPS seconds, rounded down
