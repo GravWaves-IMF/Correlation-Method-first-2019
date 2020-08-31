@@ -19,7 +19,7 @@ We find that after subtracting the maximum likelihood waveform, there are no sta
 
 ## Analysis Details ##
 
-Details of the analaysis can be found in our [preprint paper](http://google.com/2r09324).
+Details of the analaysis can be found in our [preprint paper](https://arxiv.org/abs/2008.12663).
 
 ## Additional Material ##
 
