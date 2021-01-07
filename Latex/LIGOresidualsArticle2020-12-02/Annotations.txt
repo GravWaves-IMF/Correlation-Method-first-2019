@@ -1,0 +1,27 @@
+Dear Editorial Office,
+thanks for the proofs. We will hereby report the list of corrections :
+
+- on the cover, replace "felicia.fredriksson@yahoo.com" -> "felicia.fredriksson.7699@student.uu.se"  
+
+- on p. 1, first paragraph, "The detection of gravitational eaves (GW) by LIGO" --> "The detection of gravitational waves (GW) by LIGO"
+
+-on p.6, first paragraph, change the sentence "We present it here for ease of comparison with previous results. The maximal correlation
+time found in ref. [28] is included for reference (light brown vertical line) and is quite close
+to tp. We also notice that," -> "We present it here for ease of comparison with previous results. We notice that,"
+
+- on p.9, first paragraph of sec 3.2 "for a time leg" -> "for a time lag"
+
+- on p. 13, in the acknowledgement the following sentence should be added " G.N.~is partly supported by the Research Council of Norway, ROMFORSK grant, project.~no.~302640."
+
+- on p. 14 , caption of Table 3, the "GW" in the names of the events "GW151226" and "GW170104"
+is not in italic
+
+- In the bibliography:   "[26] M. Vallisneri, J. Kanner, R. Williams, A. WEinstein and B. Stephens"  -> "[26] M. Vallisneri, J. Kanner, R. Williams, A. Weinstein and B. Stephens"    (the capital E is not capital)
+
+Best regards, 
+the authours
+
+
+
+
+

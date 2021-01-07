@@ -1,0 +1,168 @@
+\begin{thebibliography}{10}
+
+\bibitem{Abbott:2016blz}
+B.~Abbott {\em et~al.}, ``{Observation of Gravitational Waves from a Binary
+  Black Hole Merger},'' {\em Phys. Rev. Lett.}, vol.~116, no.~6, p.~061102,
+  2016.
+
+\bibitem{TheLIGOScientific:2016agk}
+B.~Abbott {\em et~al.}, ``{GW150914: The Advanced LIGO Detectors in the Era of
+  First Discoveries},'' {\em Phys. Rev. Lett.}, vol.~116, no.~13, p.~131103,
+  2016.
+
+\bibitem{Brugmann366}
+B.~Br{\"u}gmann, ``Fundamentals of numerical relativity for gravitational wave
+  sources,'' {\em Science}, vol.~361, no.~6400, pp.~366--371, 2018.
+
+\bibitem{Allen:2005fk}
+B.~Allen, W.~G. Anderson, P.~R. Brady, D.~A. Brown, and J.~D. Creighton,
+  ``{FINDCHIRP: An Algorithm for detection of gravitational waves from
+  inspiraling compact binaries},'' {\em Phys. Rev. D}, vol.~85, p.~122006,
+  2012.
+
+\bibitem{Usman:2015kfa}
+S.~A. Usman {\em et~al.}, ``{The PyCBC search for gravitational waves from
+  compact binary coalescence},'' {\em Class. Quant. Grav.}, vol.~33, no.~21,
+  p.~215004, 2016.
+
+\bibitem{Sachdev:2019vvd}
+S.~Sachdev {\em et~al.}, ``{The GstLAL Search Analysis Methods for Compact
+  Binary Mergers in Advanced LIGO's Second and Advanced Virgo's First Observing
+  Runs},'' 1 2019.
+
+\bibitem{Klimenko:2015ypf}
+S.~Klimenko {\em et~al.}, ``{Method for detection and reconstruction of
+  gravitational wave transients with networks of advanced detectors},'' {\em
+  Phys. Rev. D}, vol.~93, no.~4, p.~042004, 2016.
+
+\bibitem{Lynch:2015yin}
+R.~Lynch, S.~Vitale, R.~Essick, E.~Katsavounidis, and F.~Robinet,
+  ``{Information-theoretic approach to the gravitational-wave burst detection
+  problem},'' {\em Phys. Rev. D}, vol.~95, no.~10, p.~104046, 2017.
+
+\bibitem{LIGOScientific:2019fpa}
+B.~Abbott {\em et~al.}, ``{Tests of General Relativity with the Binary Black
+  Hole Signals from the LIGO-Virgo Catalog GWTC-1},'' {\em Phys. Rev. D},
+  vol.~100, no.~10, p.~104036, 2019.
+
+\bibitem{Salemi:2019uea}
+F.~Salemi, E.~Milotti, G.~Prodi, G.~Vedovato, C.~Lazzaro, S.~Tiwari,
+  S.~Vinciguerra, M.~Drago, and S.~Klimenko, ``{Wider look at the
+  gravitational-wave transients from GWTC-1 using an unmodeled reconstruction
+  method},'' {\em Phys. Rev. D}, vol.~100, no.~4, p.~042003, 2019.
+
+\bibitem{Tsang:2019zra}
+K.~W. Tsang, A.~Ghosh, A.~Samajdar, K.~Chatziioannou, S.~Mastrogiovanni,
+  M.~Agathos, and C.~Van Den~Broeck, ``{A morphology-independent search for
+  gravitational wave echoes in data from the first and second observing runs of
+  Advanced LIGO and Advanced Virgo},'' {\em Phys. Rev. D}, vol.~101, no.~6,
+  p.~064012, 2020.
+
+\bibitem{Edelman:2020aqj}
+B.~Edelman {\em et~al.}, ``{Constraining Unmodeled Physics with Compact Binary
+  Mergers from GWTC-1},'' {\em arXiv:2008.06436}.
+
+\bibitem{Monitor:2017mdv}
+B.~Abbott {\em et~al.}, ``{Gravitational Waves and Gamma-rays from a Binary
+  Neutron Star Merger: GW170817 and GRB 170817A},'' {\em Astrophys. J. Lett.},
+  vol.~848, no.~2, p.~L13, 2017.
+
+\bibitem{Abbott:2020uma}
+B.~Abbott {\em et~al.}, ``{GW190425: Observation of a Compact Binary
+  Coalescence with Total Mass $\sim 3.4 M_{\odot}$},'' {\em Astrophys. J.
+  Lett.}, vol.~892, no.~1, p.~L3, 2020.
+
+\bibitem{Barausse:2014tra}
+E.~Barausse, V.~Cardoso, and P.~Pani, ``{Can environmental effects spoil
+  precision gravitational-wave astrophysics?},'' {\em Phys. Rev. D}, vol.~89,
+  no.~10, p.~104059, 2014.
+
+\bibitem{Liu:2016kib}
+H.~Liu and A.~D. Jackson, ``{Possible associated signal with GW150914 in the
+  LIGO data},'' {\em JCAP}, vol.~1610, no.~10, p.~014, 2016.
+
+\bibitem{Creswell:2017rbh}
+J.~Creswell, S.~von Hausegger, A.~D. Jackson, H.~Liu, and P.~Naselsky, ``{On
+  the time lags of the LIGO signals},'' {\em JCAP}, vol.~08, p.~013, 2017.
+
+\bibitem{Liu:2018dgm}
+H.~Liu, J.~Creswell, S.~von Hausegger, A.~D. Jackson, and P.~Naselsky, ``{A
+  blind search for a common signal in gravitational wave detectors},'' {\em
+  JCAP}, vol.~02, p.~013, 2018.
+
+\bibitem{Nielsen:2018bhc}
+A.~B. Nielsen, A.~H. Nitz, C.~D. Capano, and D.~A. Brown, ``{Investigating the
+  noise residuals around the gravitational wave event GW150914},'' {\em JCAP},
+  vol.~02, p.~019, 2019.
+
+\bibitem{Jackson:2019xbq}
+A.~D. Jackson, H.~Liu, and P.~Naselsky, ``{Noise residuals for GW150914 using
+  maximum likelihood and numerical relativity templates},'' {\em JCAP},
+  vol.~1905, p.~014, 2019.
+
+\bibitem{Maroju:2019ymy}
+R.~Maroju, S.~R. Dyuthi, A.~Sukrutha, and S.~Desai, ``{Looking for ancillary
+  signals around GW150914},'' {\em JCAP}, vol.~04, p.~007, 2019.
+
+\bibitem{LIGOScientific:2019hgc}
+B.~P. Abbott {\em et~al.}, ``{A guide to LIGO--Virgo detector noise and
+  extraction of transient gravitational-wave signals},'' {\em Class. Quant.
+  Grav.}, vol.~37, no.~5, p.~055002, 2020.
+
+\bibitem{Nitz:2018imz}
+A.~H. Nitz, C.~Capano, A.~B. Nielsen, S.~Reyes, R.~White, D.~A. Brown, and
+  B.~Krishnan, ``{1-OGC: The first open gravitational-wave catalog of binary
+  mergers from analysis of public Advanced LIGO data},'' {\em Astrophys. J.},
+  vol.~872, no.~2, p.~195, 2019.
+
+\bibitem{LIGOScientific:2018mvr}
+B.~Abbott {\em et~al.}, ``{GWTC-1: A Gravitational-Wave Transient Catalog of
+  Compact Binary Mergers Observed by LIGO and Virgo during the First and Second
+  Observing Runs},'' {\em Phys. Rev. X}, vol.~9, no.~3, p.~031040, 2019.
+
+\bibitem{Venumadhav:2019tad}
+T.~Venumadhav, B.~Zackay, J.~Roulet, L.~Dai, and M.~Zaldarriaga, ``{New search
+  pipeline for compact binary mergers: Results for binary black holes in the
+  first observing run of Advanced LIGO},'' {\em Phys. Rev. D}, vol.~100, no.~2,
+  p.~023011, 2019.
+
+\bibitem{Vallisneri:2014vxa}
+M.~Vallisneri, J.~Kanner, R.~Williams, A.~Weinstein, and B.~Stephens, ``{The
+  LIGO Open Science Center},'' {\em J. Phys. Conf. Ser.}, vol.~610, no.~1,
+  p.~012021, 2015.
+
+\bibitem{De:2018zrk}
+S.~De, C.~M. Biwer, C.~D. Capano, A.~H. Nitz, and D.~A. Brown, ``{Posterior
+  samples of the parameters of binary black holes from Advanced LIGO, Virgo's
+  second observing run},'' 11 2018.
+
+\bibitem{Biwer:2018osg}
+C.~Biwer, C.~D. Capano, S.~De, M.~Cabero, D.~A. Brown, A.~H. Nitz, and
+  V.~Raymond, ``{PyCBC Inference: A Python-based parameter estimation toolkit
+  for compact binary coalescence signals},'' {\em Publ. Astron. Soc. Pac.},
+  vol.~131, no.~996, p.~024503, 2019.
+
+\bibitem{TheLIGOScientific:2016pea}
+B.~Abbott {\em et~al.}, ``{Binary Black Hole Mergers in the first Advanced LIGO
+  Observing Run},'' {\em Phys. Rev. X}, vol.~6, no.~4, p.~041015, 2016.
+\newblock [Erratum: Phys.Rev.X 8, 039903 (2018)].
+
+\bibitem{pipeline}
+P.~Marcoccia.
+\newblock https://github.com/GravWaves-IMF/Correlation-Method-first-2019.
+
+\bibitem{Babak:2017cjl}
+S.~Babak, ``{``Enchilada'' is back on the menu},'' {\em J. Phys. Conf. Ser.},
+  vol.~840, no.~1, p.~012026, 2017.
+
+\bibitem{Hannam:2013oca}
+M.~Hannam, P.~Schmidt, A.~Boh\'e, L.~Haegel, S.~Husa, F.~Ohme, G.~Pratten, and
+  M.~P\"urrer, ``{Simple Model of Complete Precessing Black-Hole-Binary
+  Gravitational Waveforms},'' {\em Phys. Rev. Lett.}, vol.~113, no.~15,
+  p.~151101, 2014.
+
+\bibitem{LALsuite}
+R.~A. Mercer {\em et~al.}, ``Ligo algorithm library v6.49.,'' 2018.
+\newblock https://git.ligo.org/lscsoft/lalsuite.
+
+\end{thebibliography}
