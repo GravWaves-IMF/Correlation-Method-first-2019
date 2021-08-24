@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # Correlation-Method-first-2019
 **Paolo Marcoccia<sup>1</sup>, Felicia Frederiksson<sup>2</sup>, Alex B. Nielsen<sup>1</sup> and Germano Nardini<sup>1</sup>**
 
